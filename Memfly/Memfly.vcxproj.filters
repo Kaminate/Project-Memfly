@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Library Include="..\..\..\..\..\Program Files (x86)\irrlicht-1.8\lib\Win32-visualstudio\Irrlicht.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Source\Main.cpp" />
+    <ClCompile Include="..\Source\Core.cpp" />
+    <ClCompile Include="..\Source\GraphicsStuff.cpp" />
+    <ClCompile Include="..\Source\Transform.cpp" />
+    <ClCompile Include="..\Source\PhysicsStuff.cpp" />
+    <ClCompile Include="..\Source\Vector4.cpp" />
+    <ClCompile Include="..\Source\Point4.cpp" />
+    <ClCompile Include="..\Source\Matrix4.cpp" />
+    <ClCompile Include="..\Source\GraphicsMath.cpp" />
+    <ClCompile Include="..\Source\ActionList.cpp">
+      <Filter>AI\ActionList</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\LerpAction.cpp">
+      <Filter>AI\ActionList</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Planning.cpp">
+      <Filter>AI\Planning</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\KillEnemy.cpp">
+      <Filter>AI\Planning\Goals</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\InstakillEnemyAction.cpp">
+      <Filter>AI\Planning\Actions</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Source\IrrlichtIncludes.h" />
+    <ClInclude Include="..\Source\Core.h" />
+    <ClInclude Include="..\Source\GraphicsStuff.h" />
+    <ClInclude Include="..\Source\Transform.h" />
+    <ClInclude Include="..\Source\PhysicsStuff.h" />
+    <ClInclude Include="..\Source\Vector4.h" />
+    <ClInclude Include="..\Source\Point4.h" />
+    <ClInclude Include="..\Source\Matrix4.h" />
+    <ClInclude Include="..\Source\GraphicsMath.h" />
+    <ClInclude Include="..\Source\ActionList.h">
+      <Filter>AI\ActionList</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\LerpAction.h">
+      <Filter>AI\ActionList</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Planning.h">
+      <Filter>AI\Planning</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\WorldProperties.h">
+      <Filter>AI\Planning</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\KillEnemy.h">
+      <Filter>AI\Planning\Goals</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\InstakillEnemyAction.h">
+      <Filter>AI\Planning\Actions</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="AI">
+      <UniqueIdentifier>{0b1e66c0-7daf-454d-911d-75b28d30c06a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\Planning">
+      <UniqueIdentifier>{8987c924-57d2-4595-8744-e4b304369d6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\Planning\Goals">
+      <UniqueIdentifier>{b205e2f2-e074-48b0-acd4-6444b4a3c489}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\Planning\Actions">
+      <UniqueIdentifier>{15bb7d74-0f8a-45e4-9dbd-2e03d63c8070}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\ActionList">
+      <UniqueIdentifier>{2639905c-95bb-4b4b-b3fe-137d443088d5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
